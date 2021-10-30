@@ -1,0 +1,41 @@
+.banner {
+  background-image: linear-gradient(to right, #fdd237, #f1a730);
+  padding: 50px;
+}
+
+.btn1 {
+  border-radius: 50px;
+  color: #f1a730;
+  padding: 12px 30px;
+}
+
+.btn1:hover {
+  color: #fdd237;
+}
+
+.btn2 {
+  border-radius: 50px;
+  color: #f1a730;
+  padding: 12px 30px;
+}
+
+.btn2:hover {
+  color: #fdd237;
+}
+
+.cards {
+  position: relative;
+  padding: 20px 0px;
+}
+
+.cards1 {
+  border-radius: 0px 6px 0px 6px;
+  color: #f1a730;
+}
+
+.cards2 {
+  border: 1px solid #415076;
+  background: #415076;
+  border-radius: 0px 6px 0px 6px;
+  color: #fff;
+}
