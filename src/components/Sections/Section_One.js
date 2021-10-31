@@ -1,15 +1,16 @@
 import React from 'react';
 import './Section_One.css';
+import logo from '../../images/logo.png';
 
 function Section_One() {
     return (
         <>
             <div className="container-fluid banner">
                 <div className="logo">
-                    <img src="https://www.dropofchangecoin.com/header_logo.png" width="120px" alt="logo" />
+                    <img src={logo} width="250px" alt="logo" />
                 </div>
                 <div className="content-text">
-                    <h1 style={{ color: '#fff', wordSpacing: '0.2rem' }}>DC Coin | To Make An Impact</h1>
+                    <h1 style={{ color: '#fff', wordSpacing: '0.2rem' }}>SHEEDA Coin | To Make An Impact</h1>
                     <div className="mt-5 sub-text">
                         <h5 style={{ color: '#fff', fontSize: '19px', wordSpacing: '0.2rem' }}>Charity Token with a robust Charitable Strategy</h5>
                     </div>
